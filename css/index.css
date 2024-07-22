@@ -1,0 +1,70 @@
+/* index.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1 {
+    color: #ff5722;
+}
+
+.form-control {
+    border-radius: 20px;
+    box-shadow: none;
+    border-color: #ff5722; 
+}
+
+.form-control:focus {
+    border-color: #e64a19; 
+    box-shadow: none;
+}
+
+.btn-info {
+    background-color: #ff5722; 
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #e64a19; 
+}
+
+.list-group-item {
+    border-radius: 8px;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+#searchInput {
+    border-radius: 20px;
+    border-color: #ff5722;
+}
+
+.btn-primary {
+    background-color: #4caf50;
+    margin-right: 10px; 
+}
+
+.btn-primary:hover {
+    background-color: #388e3c; 
+}
+
+.btn-danger {
+    background-color: #f44336; 
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c62828; /
+}
